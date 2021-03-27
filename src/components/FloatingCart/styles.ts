@@ -1,5 +1,6 @@
 import styled from 'styled-components/native';
 
+// Estilização para o container da barra inferior
 export const Container = styled.View`
   position: absolute;
   bottom: 0px;
@@ -12,16 +13,19 @@ export const Container = styled.View`
   align-items: center;
 `;
 
+// Estilização do preço na barra inferior
 export const CartPricing = styled.Text`
   padding: 20px;
 `;
 
+// Estilização do preço total na barra inferior
 export const CartTotalPrice = styled.Text`
   font-size: 16px;
   color: #fff;
   font-weight: bold;
 `;
 
+// Estilização do botão para acessar o carrinho
 export const CartButton = styled.TouchableOpacity`
   flex-direction: row;
   background: #e83f5b;
@@ -32,6 +36,7 @@ export const CartButton = styled.TouchableOpacity`
   align-items: center;
 `;
 
+// Estilização da quantidade de itens na barra inferior
 export const CartButtonText = styled.Text`
   font-weight: bold;
   color: #fff;

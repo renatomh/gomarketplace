@@ -23,6 +23,30 @@
       "title": "Nome do produto 04",
       "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
       "price": 80
+    },
+    {
+      "id": "123457",
+      "title": "Cadeira Presidente Giratória, Mymax, 25.008922, Preto",
+      "image_url": "https://images-na.ssl-images-amazon.com/images/I/51f8scnEdsL._AC_SL1000_.jpg",
+      "price": 405.42
+    },
+    {
+      "id": "123458",
+      "title": "Cadeira Gamer Mx7, Mymax Vermelho/Preto",
+      "image_url": "https://m.media-amazon.com/images/I/51sitClgQZL._AC_UY218_.jpg",
+      "price": 999
+    },
+    {
+      "id": "123459",
+      "title": "Cadeira Gamer Krait Snake Gaming Reclinável B88 Branca",
+      "image_url": "https://m.media-amazon.com/images/I/31RYGCUhbPL._AC_UY218_.jpg",
+      "price": 1264.01
+    },
+    {
+      "id": "123460",
+      "title": "Cadeira Gamer Mad Racer V6 TURBO AZ/PT - GMADV6TAZ",
+      "image_url": "https://m.media-amazon.com/images/I/61ZfXlpT50L._AC_UY218_.jpg",
+      "price": 1209.90
     }
   ]
 }

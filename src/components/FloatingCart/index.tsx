@@ -19,20 +19,43 @@ import { useCart } from '../../hooks/cart';
 // Navegação no clique do TouchableHighlight
 
 const FloatingCart: React.FC = () => {
+  // Pegando o estado de produtos do contexto do carrinho
   const { products } = useCart();
 
   const navigation = useNavigation();
 
+  // Função para obter o preço de todos os produtos do carrinho
+  // o 'useMemo' recalcula o valor quando uma das dependências é modificada
   const cartTotal = useMemo(() => {
-    // TODO RETURN THE SUM OF THE PRICE FROM ALL ITEMS IN THE CART
+    // Pegando o preço total, percorrendo cada produto
+    const total = products.reduce((accumulator, product) => {
+      // Pegando o subtotal de cada item
+      const productsSubtotal = product.price * product.quantity;
+      return accumulator + productsSubtotal;
+    },
+      // Definindo o valor inicial para o acumulador
+      0
+    );
 
-    return formatValue(0);
+    // Retornando o valor total calculado (já formatado como moeda)
+    return formatValue(total);
   }, [products]);
 
+  // Função para obter a quantidade de produtos no carrinho
+  // o 'useMemo' recalcula o valor quando uma das dependências é modificada
   const totalItensInCart = useMemo(() => {
-    // TODO RETURN THE SUM OF THE QUANTITY OF THE PRODUCTS IN THE CART
+    // Pegando a quantidade total de produtos no carrinho
+    const total = products.reduce((accumulator, product) => {
+      // Pegando a quantidade de cada item
+      const productsQuantity = product.quantity;
+      return accumulator + productsQuantity;
+    },
+      // Definindo o valor inicial para o acumulador
+      0
+    );
 
-    return 0;
+    // Retornando a quantidade total calculada
+    return total;
   }, [products]);
 
   return (
