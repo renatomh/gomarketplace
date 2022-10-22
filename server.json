@@ -1,52 +1,64 @@
 {
   "products": [
     {
-      "id": "123",
-      "title": "Nome do produto 01",
+      "id": "1",
+      "title": "Camiseta Rocket Ship",
       "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
       "price": 50
     },
     {
-      "id": "1234",
-      "title": "Nome do produto 02",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
+      "id": "2",
+      "title": "Camiseta Papa São João Paulo II",
+      "image_url": "https://static.ciadafe.com.br/public/ciadafe/imagens/produtos/camiseta-papa-sao-joao-paulo-ii-2869.jpg",
       "price": 60
     },
     {
-      "id": "12345",
-      "title": "Nome do produto 03",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
+      "id": "3",
+      "title": "Camiseta Seleção Brasileira",
+      "image_url": "https://m.media-amazon.com/images/I/61Z2QWQbJUL._AC_SX385_.jpg",
       "price": 70
     },
     {
-      "id": "123456",
-      "title": "Nome do produto 04",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
-      "price": 80
+      "id": "4",
+      "title": "Camiseta Hansons Nirvana",
+      "image_url": "http://d3ugyf2ht6aenh.cloudfront.net/stores/665/769/products/camiseta-nirvana-hanson1-e58eff0cf49c93a71f15619502373489-640-0.jpg",
+      "price": 45
     },
     {
-      "id": "123457",
+      "id": "5",
       "title": "Cadeira Presidente Giratória, Mymax, 25.008922, Preto",
       "image_url": "https://images-na.ssl-images-amazon.com/images/I/51f8scnEdsL._AC_SL1000_.jpg",
-      "price": 405.42
+      "price": 405.45
     },
     {
-      "id": "123458",
+      "id": "6",
       "title": "Cadeira Gamer Mx7, Mymax Vermelho/Preto",
       "image_url": "https://m.media-amazon.com/images/I/51sitClgQZL._AC_UY218_.jpg",
-      "price": 999
+      "price": 995.99
     },
     {
-      "id": "123459",
+      "id": "7",
       "title": "Cadeira Gamer Krait Snake Gaming Reclinável B88 Branca",
       "image_url": "https://m.media-amazon.com/images/I/31RYGCUhbPL._AC_UY218_.jpg",
-      "price": 1264.01
+      "price": 1269.50
     },
     {
-      "id": "123460",
+      "id": "8",
       "title": "Cadeira Gamer Mad Racer V6 TURBO AZ/PT - GMADV6TAZ",
       "image_url": "https://m.media-amazon.com/images/I/61ZfXlpT50L._AC_UY218_.jpg",
       "price": 1209.90
+    },
+    {
+      "id": "9",
+      "title": "Mouse Gamer 7D 3200 DPI LED Gaming Xtreme 03250-MS-G260",
+      "image_url": "https://www.mirao.com.br/media/catalog/product/cache/97a664217948b8375342e86c7b969be4/f/d/fdred.jpg",
+      "price": 17.55
+    },
+    {
+      "id": "10",
+      "title": "Teclado Gamer KG-40 C3Tech",
+      "image_url": "https://m.media-amazon.com/images/I/61wNESipVcL._AC_SY450_.jpg",
+      "price": 82.34
     }
   ]
 }

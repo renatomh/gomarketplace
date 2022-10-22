@@ -1,11 +1,12 @@
 {
-  "name": "GoMarketplace",
+  "name": "gomarketplace",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
+    "start-server": "json-server --watch server.json -p 3333",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
